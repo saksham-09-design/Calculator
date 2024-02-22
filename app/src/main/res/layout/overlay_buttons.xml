@@ -1,0 +1,33 @@
+<!-- overlay_buttons_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/foregroundButton"
+        android:fontFamily="@font/bold"
+        android:background="@drawable/purpleb"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Buttons"
+        android:textSize="15sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backgroundButton"
+        android:layout_width="130dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bold"
+        android:background="@drawable/purpleb"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text="Background"
+        android:shadowColor="@color/black" />
+
+</LinearLayout>

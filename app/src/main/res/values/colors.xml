@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purpleLight">#E0AAFF</color>
+    <color name="purpleLight1">#C77DFF</color>
+    <color name="orangeLight">#ffbe0b</color>
+    <color name="skinLight">#ffe6a7</color>
+    <color name="blueLight">#a2d6f9</color>
+    <color name="safron">#FE7B01</color>
+    <color name="yellow">#ffb703</color>
+    <color name="yellowLight">#FFBE1B</color>
+    <color name="pink">#ffb3c6</color>
+    <color name="navy">#284b63</color>
+    <color name="neon">#0b132b</color>
+    <color name="greenl">#70e000</color>
+    <color name="blackbr">#252422</color>
+    <color name="purplen">#7400b8</color>
+    <color name="purpleDark">#240046</color>
+</resources>
