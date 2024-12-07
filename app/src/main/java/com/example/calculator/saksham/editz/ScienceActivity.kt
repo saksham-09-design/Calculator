@@ -220,9 +220,7 @@ class ScienceActivity: AppCompatActivity() {
         sign.setOnClickListener {
             invalidInput()
             var exp = binding.mainfield.text.toString()
-            if(exp.last() == '+' || exp.last() == '-' || exp.last() == '*' || exp.last() == '/'){
-                exp = exp.substring(0,exp.length-1) + ')'
-            } else if(exp.last() == '.'){
+            if(exp.last() == '.'){
                 exp = exp.substring(0,exp.length-1) + ')'
             } else if(exp == "0"){
                 exp = ")"
@@ -237,9 +235,7 @@ class ScienceActivity: AppCompatActivity() {
         sign.setOnClickListener {
             invalidInput()
             var exp = binding.mainfield.text.toString()
-            if(exp.last() == '+' || exp.last() == '-' || exp.last() == '*' || exp.last() == '/'){
-                exp = exp.substring(0,exp.length-1) + '('
-            } else if(exp.last() == '.'){
+            if(exp.last() == '.'){
                 exp = exp.substring(0,exp.length-1) + '('
             } else if(exp == "0"){
                 exp = "("
